@@ -27,8 +27,8 @@ cd ChatGLM3
 ```
 pip install -r requirements.txt
 ```
-![](img/1.0%20requirement-delete-torch.png)
-![](img/1.2pip-install-package-over.png)
+![](img/ChatGLM6-3b/1.0%20requirement-delete-torch.png)
+![](img/ChatGLM6-3b/1.2pip-install-package-over.png)
 web_demo2.py
 Old:
 ```
@@ -47,15 +47,15 @@ def get_model():
 ```
 demo.queue().launch(share=False, server_name="0.0.0.0",server_port=7000)
 ```
-![](img/2.3-修改启动代码.png)
-![](img/2.3-%E5%BC%80%E6%94%BE7000%E7%AB%AF%E5%8F%A3.png)
+![](img/ChatGLM6-3b/2.3-修改启动代码.png)
+![](img/ChatGLM6-3b/2.3-%E5%BC%80%E6%94%BE7000%E7%AB%AF%E5%8F%A3.png)
 运行gradio界面
 ```
 python web_demo.py
 ```
 direct.virtaicloud.com:25284
-![运行gradio界面](/img/3.0测试gradio界面_运行成功.png)
-![](/img/3.1测试gradio界面_chat.png)
+![运行gradio界面](/img/ChatGLM6-3b/3.0测试gradio界面_运行成功.png)
+![](/img/ChatGLM6-3b/ChatGLM6-3b/3.1测试gradio界面_chat.png)
 
 运行streamlit界面
  Tips:如果你运行了gradio，需要先杀掉这个进程，不然内存不够。CTRL+C 可以杀掉进程~ 杀掉进程之后，显存不会立刻释放，可以观察右边的GPU内存占用，查看显存释放情况。
@@ -63,15 +63,14 @@ direct.virtaicloud.com:25284
 streamlit run web_demo2.py
 ```
 运行streamlit之后，终端会打印两个地址。在右边添加一个和终端上显示的一样的端口号。
-![](/img/4.0stremlit测试启动.png)
+![](/ChatGLM6-3b/img/4.0stremlit测试启动.png)
 http://direct.virtaicloud.com:20028/
 
 复制外部访问地址到浏览器打开，之后模型才会开始加载。等待模型记载完毕~
-![](img/4.0stremlit测试-模型加载完成.png)
+![](img/ChatGLM6-3b/4.0stremlit测试-模型加载完成.png)
 
 chat测试
-![](/img/4.0stremlit测试-chat-测试.png)
-![](/img/4.0stremlit测试-运行监控.png)
-![](/img/4.0stremlit测试-chat-测试2.png)
-![](/img/5.结尾.png)
-
+![](/img/ChatGLM6-3b/4.0stremlit测试-chat-测试.png)
+![](/img/ChatGLM6-3b/4.0stremlit测试-运行监控.png)
+![](/img/ChatGLM6-3b/4.0stremlit测试-chat-测试2.png)
+![](/img/ChatGLM6-3b/5.结尾.png)
