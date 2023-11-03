@@ -1,5 +1,4 @@
 ### 部署ChatGLM3-6B模型
-![x](/img/xx.jpg)
 
 [文档](https://nuly9zxzf1.feishu.cn/docx/HOmzdmST9oc43gxjTF0c7PAAnnb)
 
