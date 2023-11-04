@@ -17,13 +17,12 @@
 1、解压代码及模型 tar xf /gemini/data-1/stable-diffusion-webui.tar -C /gemini/code/ 
 
 ~~2、解压配置文件到隐藏目录/root/.cache~~
-
 ~~tar xf /gemini/data-1/cache.tar -C /root/~~ 
-
-~~3、拷贝frpc内网穿透文件 （注意有两行 -> 两条指令）~~ 
-
+~~3、拷贝frpc内网穿透文件 （注意有两行 -> 两条指令）~~
 ~~cp /gemini/data-1/frpc_linux_amd64 /root/miniconda3/lib/python3.10/site-packages/gradio/frpc_linux_amd64_v0.2%E2%80%8B%0D%0Achmod +x /root/miniconda3/lib/python3.10/site-packages/gradio/frpc_linux_amd64_v0.2~~
 ###### 新版改过了 .cache frpc已经有了 指令2,3 不用再执行
+![](/img/Stable-diffusion/1-cmd-pre-error-cache.tar.png)
+![](/img/Stable-diffusion/1-cmd-pre-cache-frpc-pass.png)
 4、运行项目 （注意有两行 -> 两条指令）
 cd /gemini/code/stable-diffusion-webui
 python launch.py --deepdanbooru --theme dark --xformers --listen --gradio-auth dolan:123456
