@@ -15,6 +15,7 @@
 依次输入以下4串命令就可以啦，注意每一次命令输入之后要等它运行完毕之后再输入下一条指令
 
 1、解压代码及模型 tar xf /gemini/data-1/stable-diffusion-webui.tar -C /gemini/code/ 
+
 ~~2、解压配置文件到隐藏目录/root/.cache 
 tar xf /gemini/data-1/cache.tar -C /root/ 
 3、拷贝frpc内网穿透文件 （注意有两行 -> 两条指令）
